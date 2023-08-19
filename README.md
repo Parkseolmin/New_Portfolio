@@ -15,8 +15,9 @@
 
 ## 완성작 보기
 
-미리보기 :http://qoavkdl3.dothome.co.kr/portfolio/index/index.html
-
+미리보기 : http://qoavkdl3.dothome.co.kr/portfolio/index/index.html
+<p align="center"><img width="560" alt="리드미이미지" src="https://github.com/Parkseolmin/New_Portfolio/assets/76764414/a93dba32-31d7-4b3b-8af7-11b738dd3cdd"></p>
+<p align="center"><img width="560" alt="리드미이미지2" src="https://github.com/Parkseolmin/New_Portfolio/assets/76764414/e1d6ed31-b72b-403a-8bad-a268e510ed16"></p>
 ## 사용 스택
 
 - gsap(https://greensock.com/gsap) 를 이용하여 패럴랙스 효과를 줍니다.
