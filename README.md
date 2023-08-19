@@ -2,14 +2,16 @@
 
 저에 대해 간략하게 소개하고, 그동안 만들어 보았던 작업물들을 보여드리는 사이트입니다.
 
-1. [vite](https://github.com/webstoryboy/port2023-vite)를 이용하여 사이트를 제작합니다.
-2. [react.js](https://github.com/webstoryboy/port2023-react)를 이용하여 사이트를 제작합니다.
-3. [vue.js](https://github.com/webstoryboy/port2023-vue)를 이용하여 사이트를 제작합니다.
-4. [next.js](https://github.com/webstoryboy/port2023-next)를 이용하여 사이트를 제작합니다.
+1. [SHOPPING MALL SITE](https://remarkable-monstera-25cfcc.netlify.app/)
+2. [WEATHER APP](https://monumental-hummingbird-b0c3ee.netlify.app/)
+3. [API MOVIE INFO SITE](https://celebrated-torte-ecf85d.netlify.app/)
+4. [TO DO LIST](https://celebrated-baklava-2ccfb5.netlify.app/)
+5. [SEOUL ART CENTER](http://qoavkdl4.dothome.co.kr/seoulartscenter/index.html)
+6. [SAMSUNG CARD](https://elegant-klepon-3fd064.netlify.app/)
+7. [WEB STANDARD](https://celadon-griffin-6a779d.netlify.app/)
 
-이 튜토리얼은 포트폴리오 컨셉의 사이트를 4가지 버전으로 반복하여 만들어 보면서, 프론트앤드 개발의 시발점이 될 수 있는 튜토리업입니다.
-자바스크립트 프레임워크를 통해 사이트를 효율적으로 만들어 보는 방법을 익힙니다.
-깊이 배우기 보다는 다양한 방법을 사용하여 흐름과 감각을 익히기 위한 튜토리얼입니다.
+위의 사이트들을 만들어보며 HTML,CSS,JS,API,REACT 사용에 익숙해지도록 노력했습니다.
+다양한 방법을 사용하여 흐름과 감각을 익히기 위한 좋은 시행착오가 되었습니다.
 
 ## 완성작 보기
 
@@ -21,14 +23,21 @@
 - lenis(https://lenis.studiofreight.com/) 를 이용하여 스므스 효과를 구현합니다.
 - netlify(https://www.netlify.com/) 를 통해 사이트를 배포합니다.
 - git(https://github.com/) 을 사용하여 파일을 관리합니다.
-- HTML, CSS 기반으로 웹사이트의 기본 레이아웃 설계하고, 웹 표준 및 웹 접근성을 준수하여 작업합니다. [ARIA(Accessible Rich Internet Applications)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
 
-## 프로젝트 실행
+## 프로젝트 준비
 
-- vite를 설치합니다. `npm create vite@latest`
-- gsap를 설치합니다. `npm install gsap`
-- lenis를 설치합니다. `npm install @studio-freight/lenis`
-- vite를 설치 후 환경 설정을 합니다. `vite.config.js`파일을 만들고 다음과 같이 작성합니다.
+###CDN
+1. gsap.min.js: GSAP(GreenSock Animation Platform)은 웹 애니메이션을 만드는 데 도움을 주는 라이브러리입니다. 요소들을 움직이거나 애니메이션 효과를 추가할 때 사용할 수 있습니다.
+
+2. ScrollTrigger.min.js: GSAP의 확장 라이브러리 중 하나로, 스크롤 트리거를 사용하여 스크롤에 따라 요소들을 제어하고 애니메이션을 추가할 수 있게 해줍니다.
+
+3. ScrollToPlugin.min.js: GSAP의 또 다른 확장 라이브러리로, 웹페이지 내에서 스크롤 이동을 스무스하게 만들어주는 플러그인입니다.
+
+4. lenis.min.js: lenis는 애니메이션 효과와 인터랙티브 요소를 웹에 추가하는 데 도움을 주는 라이브러리로 보입니다. 자세한 내용은 해당 라이브러리의 문서를 확인하면 될 것 같아요.
+
+5. jquery.min.js: jQuery는 웹 개발에서 자바스크립트 작업을 편리하게 해주는 라이브러리입니다. DOM 조작, 이벤트 처리, 애니메이션 등 다양한 작업을 쉽게 처리할 수 있도록 도와줍니다.
+
+6. jquery-ui.min.js: jQuery UI는 jQuery를 확장한 라이브러리로, 사용자 인터페이스 요소를 쉽게 만들고 커스터마이징할 수 있게 도와줍니다. 대화상자, 날짜 선택기, 드래그 앤 드롭 등의 기능을 제공합니다.
 
 ```javascript
 export default {
